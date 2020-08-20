@@ -23,7 +23,7 @@
         android:layout_marginTop="12dp"
         android:background="@color/black_10p"/>
 
-    <com.ywwynm.everythingdone.views.StablerRecyclerView
+    <com.appian.improveme.views.StablerRecyclerView
         android:id="@+id/rv_fragment_chooser"
         android:layout_width="280dp"
         android:layout_height="wrap_content"/>

@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="204dp">
 
-        <com.ywwynm.everythingdone.views.recording.VoiceVisualizer
+        <com.appian.improveme.views.recording.VoiceVisualizer
             android:id="@+id/voice_visualizer"
             android:layout_width="280dp"
             android:layout_height="132dp"

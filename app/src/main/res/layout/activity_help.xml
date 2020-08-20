@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ywwynm.everythingdone.activities.HelpActivity">
+    tools:context="com.appian.improveme.activities.HelpActivity">
 
     <View
         android:id="@+id/view_status_bar"
@@ -22,7 +22,7 @@
         app:contentInsetStart="72dp"
         app:titleTextColor="@color/black_54p"/>
 
-    <com.ywwynm.everythingdone.views.StablerRecyclerView
+    <com.appian.improveme.views.StablerRecyclerView
         android:id="@+id/rv_help"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

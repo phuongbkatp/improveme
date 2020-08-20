@@ -24,7 +24,7 @@
         android:background="@color/black_26p"
         android:visibility="invisible"/>
 
-    <com.ywwynm.everythingdone.views.StablerRecyclerView
+    <com.appian.improveme.views.StablerRecyclerView
         android:id="@+id/rv_licenses"
         android:layout_width="320dp"
         android:layout_height="400dp"/>

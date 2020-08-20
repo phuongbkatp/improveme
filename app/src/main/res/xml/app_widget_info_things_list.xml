@@ -4,7 +4,7 @@
     android:minWidth="180dp"
     android:minHeight="180dp"
     android:updatePeriodMillis="2147483467"
-    android:configure="com.ywwynm.everythingdone.appwidgets.list.ThingsListWidgetConfiguration"
+    android:configure="com.appian.improveme.appwidgets.list.ThingsListWidgetConfiguration"
     android:previewImage="@drawable/widget_things_list_preview"
     android:initialLayout="@layout/app_widget_things_list"
     android:resizeMode="horizontal|vertical"/>

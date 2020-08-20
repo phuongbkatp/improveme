@@ -4,7 +4,7 @@
     android:minWidth="110dp"
     android:minHeight="110dp"
     android:updatePeriodMillis="0"
-    android:configure="com.ywwynm.everythingdone.appwidgets.single.ThingWidgetConfigurationSmall"
+    android:configure="com.appian.improveme.appwidgets.single.ThingWidgetConfigurationSmall"
     android:initialLayout="@layout/app_widget_thing"
     android:previewImage="@drawable/widget_thing_preview_small"
     android:resizeMode="horizontal|vertical"/>

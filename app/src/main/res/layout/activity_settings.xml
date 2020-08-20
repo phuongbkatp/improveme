@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EEEEEE"
-    tools:context="com.ywwynm.everythingdone.activities.SettingsActivity">
+    tools:context="com.appian.improveme.activities.SettingsActivity">
 
     <View
         android:id="@+id/view_status_bar"

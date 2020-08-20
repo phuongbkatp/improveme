@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:ignore="HardcodedText, spUsage"
-    tools:context=".activities.DoingActivity">
+    tools:context="com.appian.improveme.activities.DoingActivity">
 
     <FrameLayout
         android:id="@+id/fl_bg_cover_doing"
@@ -167,7 +167,7 @@
                 android:layout_marginTop="48dp"
                 android:orientation="vertical">
 
-                <com.ywwynm.everythingdone.views.StablerRecyclerView
+                <com.appian.improveme.views.StablerRecyclerView
                     android:id="@+id/rv_thing_doing"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -201,7 +201,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <com.ywwynm.everythingdone.views.FloatingActionButton
+                    <com.appian.improveme.views.FloatingActionButton
                         android:id="@+id/fab_add_5_min"
                         android:layout_width="56dp"
                         android:layout_height="56dp"
@@ -235,7 +235,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <com.ywwynm.everythingdone.views.FloatingActionButton
+                    <com.appian.improveme.views.FloatingActionButton
                         android:id="@+id/fab_strict_mode"
                         android:layout_width="56dp"
                         android:layout_height="56dp"
@@ -255,7 +255,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <com.ywwynm.everythingdone.views.FloatingActionButton
+                    <com.appian.improveme.views.FloatingActionButton
                         android:id="@+id/fab_cancel_doing"
                         android:layout_width="56dp"
                         android:layout_height="56dp"

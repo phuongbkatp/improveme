@@ -98,7 +98,7 @@ public *;
 -keep class org.joda.time.** { *; }
 -keep interface org.joda.time.** { *; }
 
-#-keep class com.ywwynm.everythingdone.model.Thing { *; }
+#-keep class com.appian.improveme.model.Thing { *; }
 
-#-keep class com.ywwynm.everythingdone.utils.DisplayUtil
-#-keep class com.ywwynm.everythingdone.utils.EdgeEffectUtil
+#-keep class com.appian.improveme.utils.DisplayUtil
+#-keep class com.appian.improveme.utils.EdgeEffectUtil

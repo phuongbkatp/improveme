@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.ywwynm.everythingdone.activities.ThingsActivity">
+    tools:context="com.appian.improveme.activities.ThingsActivity">
 
     <android.support.v4.widget.DrawerLayout
         android:id="@+id/drawer_layout"
@@ -56,7 +56,7 @@
 
             <include layout="@layout/include_activity_header_things" />
 
-            <com.ywwynm.everythingdone.views.StablerRecyclerView
+            <com.appian.improveme.views.StablerRecyclerView
                 android:id="@+id/rv_things"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -76,7 +76,7 @@
                 android:alpha="0.0"
                 android:background="@drawable/actionbar_shadow"/>
 
-            <com.ywwynm.everythingdone.views.FloatingActionButton
+            <com.appian.improveme.views.FloatingActionButton
                 android:id="@+id/fab_create"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -107,7 +107,7 @@
 
     <include layout="@layout/include_contextual_toolbar_things" />
 
-    <com.ywwynm.everythingdone.views.reveal.RevealLayout
+    <com.appian.improveme.views.reveal.RevealLayout
         android:id="@+id/reveal_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -134,7 +134,7 @@
             android:layout_height="match_parent"
             android:visibility="invisible"/>
 
-    </com.ywwynm.everythingdone.views.reveal.RevealLayout>
+    </com.appian.improveme.views.reveal.RevealLayout>
 
 </merge>
 

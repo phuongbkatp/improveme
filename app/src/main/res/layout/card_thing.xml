@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.ywwynm.everythingdone.views.InterceptTouchCardView
+<com.appian.improveme.views.InterceptTouchCardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -85,7 +85,7 @@
             android:maxLines="9"
             android:textColor="@color/white_76p"/>
 
-        <com.ywwynm.everythingdone.views.StablerRecyclerView
+        <com.appian.improveme.views.StablerRecyclerView
             android:id="@+id/rv_check_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -271,4 +271,4 @@
 
     </FrameLayout>
 
-</com.ywwynm.everythingdone.views.InterceptTouchCardView>
+</com.appian.improveme.views.InterceptTouchCardView>

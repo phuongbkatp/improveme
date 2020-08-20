@@ -4,7 +4,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
-    <com.ywwynm.everythingdone.views.StablerRecyclerView
+    <com.appian.improveme.views.StablerRecyclerView
         android:id="@+id/rv_popup_picker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>

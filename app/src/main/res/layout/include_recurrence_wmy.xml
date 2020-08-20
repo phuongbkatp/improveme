@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.ywwynm.everythingdone.views.StablerRecyclerView
+    <com.appian.improveme.views.StablerRecyclerView
         android:id="@+id/rv_rec_wmy"
         android:layout_width="match_parent"
         android:layout_height="120dp"

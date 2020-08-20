@@ -17,7 +17,7 @@
         android:layout_marginRight="16dp"
         android:textColor="@color/blue_deep"/>
 
-    <com.ywwynm.everythingdone.views.InterceptTouchCardView
+    <com.appian.improveme.views.InterceptTouchCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -26,12 +26,12 @@
         app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="2dp">
 
-        <com.ywwynm.everythingdone.views.StablerRecyclerView
+        <com.appian.improveme.views.StablerRecyclerView
             android:id="@+id/rv_finished_created_statistic"
             android:layout_width="match_parent"
             android:layout_height="244dp" />
 
-    </com.ywwynm.everythingdone.views.InterceptTouchCardView>
+    </com.appian.improveme.views.InterceptTouchCardView>
 
     <TextView
         android:id="@+id/tv_note_record_statistic"
@@ -43,7 +43,7 @@
         android:textColor="@color/blue_deep"
         android:text="@string/statistic_note_record"/>
 
-    <com.ywwynm.everythingdone.views.InterceptTouchCardView
+    <com.appian.improveme.views.InterceptTouchCardView
         android:id="@+id/cv_note_record_statistic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -53,12 +53,12 @@
         app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="2dp">
 
-        <com.ywwynm.everythingdone.views.StablerRecyclerView
+        <com.appian.improveme.views.StablerRecyclerView
             android:id="@+id/rv_note_record_statistic"
             android:layout_width="match_parent"
             android:layout_height="195dp" />
 
-    </com.ywwynm.everythingdone.views.InterceptTouchCardView>
+    </com.appian.improveme.views.InterceptTouchCardView>
 
     <TextView
         android:id="@+id/tv_reminder_record_statistic"
@@ -70,7 +70,7 @@
         android:textColor="@color/blue_deep"
         android:text="@string/statistic_reminder_record"/>
 
-    <com.ywwynm.everythingdone.views.InterceptTouchCardView
+    <com.appian.improveme.views.InterceptTouchCardView
         android:id="@+id/cv_reminder_record_statistic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -80,12 +80,12 @@
         app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="2dp">
 
-        <com.ywwynm.everythingdone.views.StablerRecyclerView
+        <com.appian.improveme.views.StablerRecyclerView
             android:id="@+id/rv_reminder_record_statistic"
             android:layout_width="match_parent"
             android:layout_height="195dp" />
 
-    </com.ywwynm.everythingdone.views.InterceptTouchCardView>
+    </com.appian.improveme.views.InterceptTouchCardView>
 
     <TextView
         android:id="@+id/tv_habit_record_statistic"
@@ -97,7 +97,7 @@
         android:textColor="@color/blue_deep"
         android:text="@string/statistic_habit_record"/>
 
-    <com.ywwynm.everythingdone.views.InterceptTouchCardView
+    <com.appian.improveme.views.InterceptTouchCardView
         android:id="@+id/cv_habit_record_statistic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -107,12 +107,12 @@
         app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="2dp">
 
-        <com.ywwynm.everythingdone.views.StablerRecyclerView
+        <com.appian.improveme.views.StablerRecyclerView
             android:id="@+id/rv_habit_record_statistic"
             android:layout_width="match_parent"
             android:layout_height="244dp" />
 
-    </com.ywwynm.everythingdone.views.InterceptTouchCardView>
+    </com.appian.improveme.views.InterceptTouchCardView>
 
     <TextView
         android:id="@+id/tv_goal_record_statistic"
@@ -124,7 +124,7 @@
         android:textColor="@color/blue_deep"
         android:text="@string/statistic_goal_record"/>
 
-    <com.ywwynm.everythingdone.views.InterceptTouchCardView
+    <com.appian.improveme.views.InterceptTouchCardView
         android:id="@+id/cv_goal_record_statistic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -134,12 +134,12 @@
         app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="2dp">
 
-        <com.ywwynm.everythingdone.views.StablerRecyclerView
+        <com.appian.improveme.views.StablerRecyclerView
             android:id="@+id/rv_goal_record_statistic"
             android:layout_width="match_parent"
             android:layout_height="195dp" />
 
-    </com.ywwynm.everythingdone.views.InterceptTouchCardView>
+    </com.appian.improveme.views.InterceptTouchCardView>
 
     <View
         android:layout_width="match_parent"

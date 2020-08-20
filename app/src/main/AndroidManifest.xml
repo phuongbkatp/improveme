@@ -2,7 +2,7 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.ywwynm.everythingdone">
+    package="com.appian.improveme">
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -16,7 +16,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <application
-        android:name=".App"
+        android:name="com.appian.improveme.App"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/everythingdone"
@@ -25,7 +25,7 @@
         <meta-data android:name="android.max_aspect" android:value="2.1" />
 
         <activity
-            android:name=".activities.ThingsActivity"
+            android:name="com.appian.improveme.activities.ThingsActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/everythingdone"
             android:launchMode="singleTask"
@@ -44,7 +44,7 @@
         </activity>
 
         <activity
-            android:name=".activities.DetailActivity"
+            android:name="com.appian.improveme.activities.DetailActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/thing"
             android:screenOrientation="user"
@@ -72,33 +72,33 @@
         </activity>
 
         <activity
-            android:name=".activities.ImageViewerActivity"
+            android:name="com.appian.improveme.activities.ImageViewerActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/image_or_video_attachment"
             android:theme="@style/EverythingDoneTheme.ImageViewer"/>
 
         <receiver
-            android:name=".receivers.ReminderReceiver"
+            android:name="com.appian.improveme.receivers.ReminderReceiver"
             android:enabled="true"/>
 
         <receiver
-            android:name=".receivers.ReminderNotificationActionReceiver"
+            android:name="com.appian.improveme.receivers.ReminderNotificationActionReceiver"
             android:enabled="true"/>
 
         <receiver
-            android:name=".receivers.HabitReceiver"
+            android:name="com.appian.improveme.receivers.HabitReceiver"
             android:enabled="true"/>
 
         <receiver
-            android:name=".receivers.HabitNotificationActionReceiver"
+            android:name="com.appian.improveme.receivers.HabitNotificationActionReceiver"
             android:enabled="true"/>
 
         <receiver
-            android:name=".receivers.HabitWidgetActionReceiver"
+            android:name="com.appian.improveme.receivers.HabitWidgetActionReceiver"
             android:enabled="true"/>
 
         <receiver
-            android:name=".receivers.BootReceiver"
+            android:name="com.appian.improveme.receivers.BootReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -107,11 +107,11 @@
         </receiver>
 
         <receiver
-            android:name=".receivers.LocaleChangeReceiver"
+            android:name="com.appian.improveme.receivers.LocaleChangeReceiver"
             android:enabled="true"/>
 
         <receiver
-            android:name=".receivers.UserPresentReceiver"
+            android:name="com.appian.improveme.receivers.UserPresentReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -120,34 +120,34 @@
         </receiver>
 
         <activity
-            android:name=".activities.SettingsActivity"
+            android:name="com.appian.improveme.activities.SettingsActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_settings"
             android:theme="@style/EverythingDoneTheme.Settings"/>
 
         <activity
-            android:name=".activities.AboutActivity"
+            android:name="com.appian.improveme.activities.AboutActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_about"
             android:theme="@style/EverythingDoneTheme.About"/>
 
         <receiver
-            android:name=".receivers.AutoNotifyReceiver"
+            android:name="com.appian.improveme.receivers.AutoNotifyReceiver"
             android:enabled="true"/>
 
         <activity
-            android:name=".activities.StatisticActivity"
+            android:name="com.appian.improveme.activities.StatisticActivity"
             android:label="@string/title_activity_statistic"
             android:screenOrientation="portrait"
             android:theme="@style/EverythingDoneTheme.Statistic"/>
 
         <receiver
-            android:name=".receivers.DailyUpdateHabitReceiver"
+            android:name="com.appian.improveme.receivers.DailyUpdateHabitReceiver"
             android:enabled="true"
             android:exported="true"/>
 
         <receiver
-            android:name=".receivers.AppUpdateReceiver"
+            android:name="com.appian.improveme.receivers.AppUpdateReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -156,22 +156,22 @@
         </receiver>
 
         <receiver
-            android:name=".receivers.DailyCreateTodoReceiver"
+            android:name="com.appian.improveme.receivers.DailyCreateTodoReceiver"
             android:enabled="true"/>
 
         <activity
-            android:name=".activities.AuthenticationActivity"
-            android:taskAffinity="com.ywwynm.everythingdone.task.authentication"
+            android:name="com.appian.improveme.activities.AuthenticationActivity"
+            android:taskAffinity="com.appian.improveme.task.authentication"
             android:excludeFromRecents="true"
             android:theme="@style/EverythingDoneTheme.TotallyTransparent"/>
 
         <activity
-            android:name=".activities.HelpActivity"
+            android:name="com.appian.improveme.activities.HelpActivity"
             android:label="@string/help"
             android:theme="@style/EverythingDoneTheme.Help"/>
 
         <receiver
-            android:name=".appwidgets.CreateWidget"
+            android:name="com.appian.improveme.appwidgets.CreateWidget"
             android:label="@string/title_create_thing">
             <meta-data
                 android:name="android.appwidget.provider"
@@ -182,7 +182,7 @@
         </receiver>
 
         <receiver
-            android:name=".appwidgets.CheckUpcomingWidget"
+            android:name="com.appian.improveme.appwidgets.CheckUpcomingWidget"
             android:label="@string/act_shortcut_check_upcoming">
             <meta-data
                 android:name="android.appwidget.provider"
@@ -193,7 +193,7 @@
         </receiver>
 
         <receiver
-            android:name=".appwidgets.single.ThingWidgetTiny"
+            android:name="com.appian.improveme.appwidgets.single.ThingWidgetTiny"
             android:label="@string/thing">
             <meta-data
                 android:name="android.appwidget.provider"
@@ -203,12 +203,12 @@
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="com.ywwynm.everythingdone.action.broadcast.update_checklist"/>
+                <action android:name="com.appian.improveme.action.broadcast.update_checklist"/>
             </intent-filter>
         </receiver>
 
         <receiver
-            android:name=".appwidgets.single.ThingWidgetSmall"
+            android:name="com.appian.improveme.appwidgets.single.ThingWidgetSmall"
             android:label="@string/thing">
             <meta-data
                 android:name="android.appwidget.provider"
@@ -218,12 +218,12 @@
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="com.ywwynm.everythingdone.action.broadcast.update_checklist"/>
+                <action android:name="com.appian.improveme.action.broadcast.update_checklist"/>
             </intent-filter>
         </receiver>
 
         <receiver
-            android:name=".appwidgets.single.ThingWidgetMiddle"
+            android:name="com.appian.improveme.appwidgets.single.ThingWidgetMiddle"
             android:label="@string/thing">
             <meta-data
                 android:name="android.appwidget.provider"
@@ -233,12 +233,12 @@
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="com.ywwynm.everythingdone.action.broadcast.update_checklist"/>
+                <action android:name="com.appian.improveme.action.broadcast.update_checklist"/>
             </intent-filter>
         </receiver>
 
         <receiver
-            android:name=".appwidgets.single.ThingWidgetLarge"
+            android:name="com.appian.improveme.appwidgets.single.ThingWidgetLarge"
             android:label="@string/thing">
             <meta-data
                 android:name="android.appwidget.provider"
@@ -248,12 +248,12 @@
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="com.ywwynm.everythingdone.action.broadcast.update_checklist"/>
+                <action android:name="com.appian.improveme.action.broadcast.update_checklist"/>
             </intent-filter>
         </receiver>
 
         <receiver
-            android:name=".appwidgets.list.ThingsListWidget"
+            android:name="com.appian.improveme.appwidgets.list.ThingsListWidget"
             android:label="@string/title_widget_things_list">
             <meta-data
                 android:name="android.appwidget.provider"
@@ -264,7 +264,7 @@
         </receiver>
 
         <activity
-            android:name=".appwidgets.single.BaseThingWidgetConfiguration"
+            android:name="com.appian.improveme.appwidgets.single.BaseThingWidgetConfiguration"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:excludeFromRecents="true"
             android:label="@string/title_activity_thing_widget_configure"
@@ -276,7 +276,7 @@
         </activity>
 
         <activity
-            android:name=".appwidgets.single.ThingWidgetConfigurationTiny"
+            android:name="com.appian.improveme.appwidgets.single.ThingWidgetConfigurationTiny"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:excludeFromRecents="true"
             android:label="@string/title_activity_thing_widget_configure"
@@ -288,7 +288,7 @@
         </activity>
 
         <activity
-            android:name=".appwidgets.single.ThingWidgetConfigurationSmall"
+            android:name="com.appian.improveme.appwidgets.single.ThingWidgetConfigurationSmall"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:excludeFromRecents="true"
             android:label="@string/title_activity_thing_widget_configure"
@@ -300,7 +300,7 @@
         </activity>
 
         <activity
-            android:name=".appwidgets.single.ThingWidgetConfigurationMiddle"
+            android:name="com.appian.improveme.appwidgets.single.ThingWidgetConfigurationMiddle"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:excludeFromRecents="true"
             android:label="@string/title_activity_thing_widget_configure"
@@ -312,7 +312,7 @@
         </activity>
 
         <activity
-            android:name=".appwidgets.single.ThingWidgetConfigurationLarge"
+            android:name="com.appian.improveme.appwidgets.single.ThingWidgetConfigurationLarge"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:excludeFromRecents="true"
             android:label="@string/title_activity_thing_widget_configure"
@@ -324,8 +324,8 @@
         </activity>
 
         <activity
-            android:name=".appwidgets.list.ThingsListWidgetConfiguration"
-            android:taskAffinity="com.ywwynm.everythingdone.task.thing_list_widget_config"
+            android:name="com.appian.improveme.appwidgets.list.ThingsListWidgetConfiguration"
+            android:taskAffinity="com.appian.improveme.task.thing_list_widget_config"
             android:excludeFromRecents="true"
             android:theme="@style/EverythingDoneTheme.Dialog">
             <intent-filter>
@@ -334,20 +334,20 @@
         </activity>
 
         <service
-            android:name=".appwidgets.single.ChecklistWidgetService"
+            android:name="com.appian.improveme.appwidgets.single.ChecklistWidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS"/>
 
         <service
-            android:name=".appwidgets.list.ThingsListWidgetService"
+            android:name="com.appian.improveme.appwidgets.list.ThingsListWidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS"/>
 
         <service
-            android:name=".services.PullAliveJobService"
+            android:name="com.appian.improveme.services.PullAliveJobService"
             android:permission="android.permission.BIND_JOB_SERVICE"/>
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.ywwynm.everythingdone"
+            android:authorities="com.appian.improveme"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -356,32 +356,32 @@
         </provider>
 
         <activity
-            android:name=".activities.DelayReminderActivity"
-            android:taskAffinity="com.ywwynm.everythingdone.task.delay_reminder"
+            android:name="com.appian.improveme.activities.DelayReminderActivity"
+            android:taskAffinity="com.appian.improveme.task.delay_reminder"
             android:excludeFromRecents="true"
             android:theme="@style/EverythingDoneTheme.TotallyTransparent">
         </activity>
 
         <activity
-            android:name=".activities.ShortcutActivity"
+            android:name="com.appian.improveme.activities.ShortcutActivity"
             android:theme="@style/EverythingDoneTheme.TotallyTransparent">
             <intent-filter>
-                <action android:name="com.ywwynm.everythingdone.action.shortcut.create"/>
+                <action android:name="com.appian.improveme.action.shortcut.create"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="com.ywwynm.everythingdone.action.shortcut.check_upcoming"/>
+                <action android:name="com.appian.improveme.action.shortcut.check_upcoming"/>
             </intent-filter>
         </activity>
 
         <activity
-            android:name=".activities.StartDoingActivity"
-            android:taskAffinity="com.ywwynm.everythingdone.task.doing"
+            android:name="com.appian.improveme.activities.StartDoingActivity"
+            android:taskAffinity="com.appian.improveme.task.doing"
             android:excludeFromRecents="true"
             android:theme="@style/EverythingDoneTheme.TotallyTransparent">
         </activity>
 
         <activity
-            android:name=".activities.DoingActivity"
+            android:name="com.appian.improveme.activities.DoingActivity"
             android:label="@string/title_activity_doing"
             android:launchMode="singleTask"
             android:resizeableActivity="false"
@@ -392,17 +392,17 @@
         </activity>
 
         <service
-            android:name=".services.DoingService">
+            android:name="com.appian.improveme.services.DoingService">
         </service>
 
         <receiver
-            android:name=".receivers.DoingNotificationActionReceiver"
+            android:name="com.appian.improveme.receivers.DoingNotificationActionReceiver"
             android:enabled="true">
         </receiver>
 
         <activity
-            android:name=".activities.NoticeableNotificationActivity"
-            android:taskAffinity="com.ywwynm.everythingdone.task.noticeable_notification"
+            android:name="com.appian.improveme.activities.NoticeableNotificationActivity"
+            android:taskAffinity="com.appian.improveme.task.noticeable_notification"
             android:excludeFromRecents="true"
             android:theme="@style/EverythingDoneTheme.NoticeableNotification">
         </activity>

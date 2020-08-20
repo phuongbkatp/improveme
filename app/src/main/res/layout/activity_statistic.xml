@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ywwynm.everythingdone.activities.StatisticActivity">
+    tools:context="com.appian.improveme.activities.StatisticActivity">
 
     <ScrollView
         android:id="@+id/sv_statistic"
@@ -35,7 +35,7 @@
 
             </LinearLayout>
 
-            <com.ywwynm.everythingdone.views.FloatingActionButton
+            <com.appian.improveme.views.FloatingActionButton
                 android:id="@+id/fab_share"
                 android:layout_height="56dp"
                 android:layout_width="56dp"

@@ -8,9 +8,9 @@
         android:shortcutShortLabel="@string/title_create_thing"
         android:shortcutLongLabel="@string/title_create_thing">
         <intent
-            android:action="com.ywwynm.everythingdone.action.shortcut.create"
-            android:targetPackage="com.ywwynm.everythingdone"
-            android:targetClass="com.ywwynm.everythingdone.activities.ShortcutActivity" />
+            android:action="com.appian.improveme.action.shortcut.create"
+            android:targetPackage="com.appian.improveme"
+            android:targetClass="com.appian.improveme.activities.ShortcutActivity" />
     </shortcut>
 
     <shortcut
@@ -20,9 +20,9 @@
         android:shortcutShortLabel="@string/act_shortcut_check_upcoming"
         android:shortcutLongLabel="@string/act_shortcut_check_upcoming">
         <intent
-            android:action="com.ywwynm.everythingdone.action.shortcut.check_upcoming"
-            android:targetPackage="com.ywwynm.everythingdone"
-            android:targetClass="com.ywwynm.everythingdone.activities.ShortcutActivity" />
+            android:action="com.appian.improveme.action.shortcut.check_upcoming"
+            android:targetPackage="com.appian.improveme"
+            android:targetClass="com.appian.improveme.activities.ShortcutActivity" />
     </shortcut>
 
     <shortcut
@@ -32,9 +32,9 @@
         android:shortcutShortLabel="@string/act_shortcut_check_sticky"
         android:shortcutLongLabel="@string/act_shortcut_check_sticky">
         <intent
-            android:action="com.ywwynm.everythingdone.action.shortcut.check_sticky"
-            android:targetPackage="com.ywwynm.everythingdone"
-            android:targetClass="com.ywwynm.everythingdone.activities.ShortcutActivity" />
+            android:action="com.appian.improveme.action.shortcut.check_sticky"
+            android:targetPackage="com.appian.improveme"
+            android:targetClass="com.appian.improveme.activities.ShortcutActivity" />
     </shortcut>
 
 </shortcuts>

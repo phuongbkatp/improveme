@@ -1,0 +1,3 @@
+attr swirl_errorColor
+attr swirl_ridgeColor
+attr swirl_state
